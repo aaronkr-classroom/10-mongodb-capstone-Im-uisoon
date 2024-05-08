@@ -15,30 +15,32 @@
           <div class="col-md-10 mx-auto col-lg-5 mb-5">
             <form
               class="p-4 p-md-5 border rounded-3 bg-light"
-              action="/"
+              action="/subscribe"
               method="post"
             >
               <div class="form-floating mb-3">
                 <input
                   type="text"
                   class="form-control"
-                  id="floatingName"
+                  id="name"
                   placeholder="Name"
+                  name="name"
                 />
-                <label for="floatingName">Name</label>
+                <label for="name">Name</label>
               </div>
               <div class="form-floating mb-3">
                 <input
                   type="email"
                   class="form-control"
-                  id="floatingInput"
+                  id="email"
                   placeholder="name@example.com"
+                  name="email"
                 />
-                <label for="floatingInput">Email address</label>
+                <label for="email">Email address</label>
               </div>
               <div class="checkbox mb-3">
                 <label>
-                  <input type="checkbox" value="subscribe" /> Subscribe to
+                  <input type="checkbox" name="Newsletter" value="subscribe" /> Subscribe to
                   Newsletter
                 </label>
               </div>
